@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="cBR_TSKLRg1AuUn9PaHa">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-4" target="MBdqeHO88_DcC_Qd0DZQ-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-4" value="User Submission Data&lt;div style=&quot;font-size: 16px;&quot;&gt;(UserId, form data which includes relevant attached documents)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="340" y="300" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-5" target="MBdqeHO88_DcC_Qd0DZQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-5" value="Generate Formal Letter from data&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;and store It in temprory off-chain storage like aws s3 or ipfs.&amp;nbsp;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="320" y="500" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-10" target="MBdqeHO88_DcC_Qd0DZQ-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-10" value="Maintain a database where these all submitted request letters are there and update it." style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="320" y="730" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-12" target="MBdqeHO88_DcC_Qd0DZQ-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-12" target="MBdqeHO88_DcC_Qd0DZQ-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-12" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="395" y="920" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-14" target="MBdqeHO88_DcC_Qd0DZQ-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-14" value="Approved By Official" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="215" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-16" target="MBdqeHO88_DcC_Qd0DZQ-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-16" value="Rejected By Official" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="535" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-18" target="MBdqeHO88_DcC_Qd0DZQ-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-18" value="&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Digitally sign the letter from corresponding official and move it to permanent off-chain storage.&lt;/span&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1070" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-20" target="MBdqeHO88_DcC_Qd0DZQ-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-20" value="Generate the Hash of that letter and Store Hash in Hyperledger Fabric " style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1210" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-22" value="Update the status as &quot;Approved&quot; in that database which stores all requested letters" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="140" y="1350" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-26" value="Update Status &quot;Rejected&quot; on that database." style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="535" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-30" target="MBdqeHO88_DcC_Qd0DZQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-30" value="(requestID, letterID, userID, status, comment)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="640" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-32" target="MBdqeHO88_DcC_Qd0DZQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" source="MBdqeHO88_DcC_Qd0DZQ-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-32" value="Also which officer will get which request is decided by area (address)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="40" y="760" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-35" value="&lt;h1 style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px; line-height: 107%; font-family: &amp;quot;Times New Roman&amp;quot;, serif; vertical-align: baseline;&quot;&gt;&lt;u style=&quot;font-size: 16px;&quot;&gt;4. Automated Document and Letter Generation Module&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;/h1&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="200" y="10" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-37" value="&lt;ul style=&quot;margin-top: 0cm; font-size: 16px;&quot; type=&quot;disc&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt; &lt;li class=&quot;MsoNormal&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;line-height: 107%; font-family: &amp;quot;Times New Roman&amp;quot;, serif; vertical-align: baseline; font-size: 16px;&quot;&gt;Description&lt;/span&gt;&lt;/b&gt;&lt;span style=&quot;line-height: 107%; font-family: &amp;quot;Times New Roman&amp;quot;, serif; vertical-align: baseline; font-size: 16px;&quot;&gt;: Automatically&lt;br style=&quot;font-size: 16px;&quot;&gt;     generates formal letters or notifications for officials when users submit&lt;br style=&quot;font-size: 16px;&quot;&gt;     or update their land records. The letter includes all relevant details and&lt;br style=&quot;font-size: 16px;&quot;&gt;     is sent to the appropriate officials for review.&lt;/span&gt;&lt;/li&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/ul&gt;" style="ellipse;whiteSpace=wrap;html=1;align=left;fontSize=16;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry y="60" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="MBdqeHO88_DcC_Qd0DZQ-40" value="&lt;ul style=&quot;margin-top: 0cm; font-size: 9px;&quot; type=&quot;disc&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt; &lt;div style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/div&gt;  &lt;li class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: initial;&quot;&gt;Generate formal&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;line-height: 107%; font-family: &amp;quot;Times New Roman&amp;quot;, serif; vertical-align: baseline;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;letters based on user land submissions.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/li&gt;&lt;div style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/div&gt;  &lt;li class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: initial;&quot;&gt;Notify and send the&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;line-height: 107%; font-family: &amp;quot;Times New Roman&amp;quot;, serif; vertical-align: baseline;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;letters to the appropriate officials (Revenue, District, ITDA).&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/li&gt;&lt;div style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/div&gt;  &lt;li class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: initial;&quot;&gt;Allow users to track&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;line-height: 107%; font-family: &amp;quot;Times New Roman&amp;quot;, serif; vertical-align: baseline;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;the progress of their submissions.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/li&gt;&lt;div style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/div&gt;  &lt;li class=&quot;MsoNormal&quot; style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: initial;&quot;&gt;Store generated&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;line-height: 107%; font-family: &amp;quot;Times New Roman&amp;quot;, serif; vertical-align: baseline;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;letters in a secure manner for future reference.&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/li&gt;&lt;div style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;&quot;&gt;&lt;br style=&quot;&quot;&gt;&lt;/div&gt;&lt;/ul&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="530" y="90" width="310" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="uu3yl8EWBQCpyK9tuis5-1" value="&lt;li style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Backend Framework:&lt;/strong&gt; Node.js with Express&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Frontend Framework:&lt;/strong&gt; React.js&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Blockchain Platform:&lt;/strong&gt; Hyperledger Fabric&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Off-Chain Storage:&lt;/strong&gt; AWS S3 or IPFS&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Database:&lt;/strong&gt; PostgreSQL or MongoDB for tracking submissions&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Hashing Algorithm:&lt;/strong&gt; SHA-256&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;&lt;strong style=&quot;font-size: 16px;&quot;&gt;Authentication &amp;amp; Authorization:&lt;/strong&gt; JWT (JSON Web Tokens)&lt;/li&gt;" style="whiteSpace=wrap;html=1;align=left;fontSize=16;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1560" width="510" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
